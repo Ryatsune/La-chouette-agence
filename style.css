@@ -362,6 +362,38 @@ a:hover {
     z-index: 2;
 }
 
+/* ----------BORDER ONGLET NAV------------- */
+.active {
+    border-bottom: 1px solid #263238;
+}
+/* ----------BORDER ONGLET NAV------------- */
+
+/* ----------TAILLE DESCRIPTION / AVIS------------- */
+.size-22 {
+    font-size: 22px;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.size-18 span {
+    font-size: small;
+}
+/* ----------TAILLE DESCRIPTION / AVIS------------- */
+
+/* ----------PAGE CONTACT------------- */
+.contact-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-center .col-sm-6 {
+    margin-bottom: 25px;
+}
+/* ----------PAGE CONTACT------------- */
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -677,7 +709,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -780,12 +812,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #575757!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #575757!important;
 }
 
 .ltc-white {
@@ -818,11 +850,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere1.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
