@@ -508,7 +508,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
@@ -812,12 +812,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .ltc-white {
@@ -1035,6 +1035,9 @@ h4 {
     }
     .btn-dwn {
         display: none;
+    }
+    .col-sm-3 {
+        padding-bottom: 20px;
     }
     .voffset {
         margin-top: 5px;
