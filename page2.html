@@ -76,29 +76,26 @@
 	<div class="container bloc-lg">
 		<div class="row contact-center">
 			<div class="col-sm-6">
-				<form action="traitement.php" method="post" id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form action="traitement.php" method="post" id="form_1">
 					<div class="form-group">
-						<label for="name">
-							Nom
-						</label>
+						<label for="name"></label>
+							<h2>Nom</h2>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label for="email">
-							Adresse email
-						</label>
+						<label for="email"></label>
+							<h2>Adresse email</h2>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label for="input_504">
-							Comment nous avez-vous connu ?
-						</label>
+						<label for="input_504"></label>
+							<h2>Comment nous avez-vous connu ?</h2>
 						<input class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label for="message">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message"></label>
+							<h2>Brief de votre projet (Ajoutez autant de détails que nécessaire)</h2><br>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
