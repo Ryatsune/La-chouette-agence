@@ -1030,6 +1030,9 @@ h4 {
     .a-block {
         padding: 0 10px;
     }
+    .portfolio-thumb {
+        margin: auto;
+    }
     .btn-dwn {
         display: none;
     }
